@@ -41,7 +41,6 @@ def email(subj, body):
         pwd=GMAIL_PASS
     )
     r = sender.send(message)
-    logger.info(r)
 
     
 def main ():
